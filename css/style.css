@@ -1,0 +1,221 @@
+body {
+  color: #333;
+  font-family: 'Noto Sans JP', sans-serif;
+}
+
+a {
+  color: #333;
+  text-decoration: none;
+}
+
+a:hover {
+  opacity: .8;
+}
+
+h1 {
+  font-size: 2rem;
+}
+
+h2 {
+  font-size: 1.8rem;
+  font-weight: bold;
+}
+
+h3 {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.d_flex {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.sp-menu {
+  display: none;
+}
+
+/* header */
+
+.header-top {
+  height: 4rem;
+  padding: 0 2rem;
+}
+
+.header-top h1 {
+  line-height: 4rem;
+}
+
+.header-g_nav {
+  height: 3rem;
+  padding: 0 2rem;
+  background-color: #333;
+}
+
+.header-nav li {
+  display: inline-block;
+  line-height: 3rem;
+  margin-right: 3rem;
+}
+
+.header-nav a {
+  color: #fff;
+}
+
+/* main */
+
+.main {
+  padding: 2rem;
+}
+
+.main .link_wrap {
+  text-align: center;
+}
+
+.main a {
+  display: inline-block;
+  color: #888;
+  border-bottom: 1px solid #888;
+}
+
+/* mv */
+
+.mv .txt {
+  padding: 1rem;
+}
+
+.mv .box {
+  width: 32%;
+}
+
+/* post_contents */
+
+.post_contents {
+  padding: 4rem 0;
+}
+
+/* article */
+
+.article {
+  width: 70%;
+}
+
+.article .history {
+  padding: 1rem 0;
+}
+
+.article .day {
+  margin-right: 1rem;
+}
+
+.article .txt {
+  padding: 1rem;
+}
+
+.article .post {
+  padding-bottom: 4rem;
+}
+
+/* aside */
+
+.aside {
+  width: 28%;
+  font-size: .9rem;
+}
+
+.aside h3 {
+  margin-bottom: 2rem;
+  text-align: center;
+}
+
+.aside-profile {
+  margin-bottom: 4rem;
+}
+
+.aside-profile .img_wrap {
+  width: 40%;
+  margin: 0 auto 2rem;
+}
+
+.aside-profile img {
+  border-radius: 50%;
+}
+
+.aside-ranking_post {
+  margin-bottom: 2rem;
+}
+
+.aside-ranking_post .txt {
+  padding: 1rem 0;
+}
+
+.aside-archive li {
+  padding: 1rem;
+  border-top: 1px solid #888;
+}
+
+.aside-archive:last-child {
+  border-bottom: 1px solid #888;
+}
+
+.aside-archive a {
+  border: none;
+}
+
+/* footer */
+
+.footer {
+  padding: 4rem 2rem 1rem;
+  background-color: #eee;
+}
+
+.footer h3 {
+  margin-bottom: 2rem;
+}
+
+.footer .box {
+  width: 31%;
+}
+
+.footer .d_flex {
+  margin-bottom: 4rem;
+}
+
+.footer-about .txt {
+  margin-bottom: 2rem;
+}
+
+.footer-about a {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.footer-about a::before {
+  content: '';
+  display: inline-block;
+  margin-right: 5px;
+  border-top: 8px solid transparent;
+  border-left: 10px solid #333;
+  border-bottom: 8px solid transparent;
+  vertical-align: middle;
+}
+
+.footer-menu li {
+  padding: 1rem;
+  border-top: 1px solid #888;
+}
+
+.footer-menu li:last-child {
+  border-bottom: 1px solid #333;
+}
+
+.footer .copyright {
+  display: block;
+  text-align: center;
+}

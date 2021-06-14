@@ -1,0 +1,48 @@
+@media(max-width: 1023px) {
+
+  body {
+    font-size: 13px;
+  }
+
+  .article {
+    width: 68%;
+  }
+
+  .footer .box {
+    width: 30%;
+  }
+
+}
+
+@media(max-width: 767px) {
+
+  .header-g_nav {
+    display: none;
+  }
+  
+  .sp-menu {
+    position: fixed;
+    top: 15px;
+    right: 2rem;
+    display: block;
+  }
+
+  .mv .box {
+    width: 100%;
+    margin-bottom: 2rem;
+  }
+
+  .article {
+    width: 100%;
+  }
+
+  .aside {
+    width: 100%;
+  }
+
+  .footer .box {
+    width: 100%;
+    margin-bottom: 2rem;
+  }
+
+}

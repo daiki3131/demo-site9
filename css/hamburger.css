@@ -1,0 +1,86 @@
+.burger-btn {
+  position: relative;
+  z-index: 3;
+  display: block;
+  width: 39px;
+  height: 39px;
+  background-color: #333;
+  border: none;
+}
+
+.bar {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  display: block;
+  width: 20px;
+  height: 1px;
+  background-color: #fff;
+}
+
+.bar_top {
+  top: 10px;
+}
+
+.bar_mid {
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.bar_bottom {
+  bottom: 10px;
+}
+
+/* クリックイベントで付与 */
+
+.burger-btn.close .bar_top {
+  transform: translate(-50%, 10px) rotate(45deg);
+  transition: .3s;
+}
+
+.burger-btn.close .bar_mid {
+  opacity: 0;
+  transition: .3s;
+}
+.burger-btn.close .bar_bottom {
+  transform: translate(-50%, -8px) rotate(-45deg);
+  transition: .3s;
+}
+
+/* スマホ用グローバルメニュー */
+
+.nav-wrapper {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 2;
+  display: none;
+  width: 100vw;
+  height: 100vh;
+}
+
+.sp-header-g_nav {
+  width: 100%;
+  height: 100%;
+  background-color: #333;
+  z-index: 2;
+}
+
+.sp-header-g_nav ul {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: block;
+  text-align: center;
+}
+
+.sp-header-g_nav li {
+  margin-right: 0;
+  margin-bottom: 40px;
+  text-align: center;
+}
+
+.sp-header-g_nav a {
+  color: #fff;
+}
